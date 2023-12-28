@@ -1,0 +1,24 @@
+A VARIABLE is a name given to a memory location inside our computer where we can store data
+EXAMPLE:
+int age;
+here "int" is a Keyword and "age" is a variable name
+int is a integer data type
+; -> semicolen is used at the end of every line which indicates the end of the statement line.
+NOW Let's an example
+
+INPUT
+
+#include<stdio.h>
+int main()
+{
+int age = 25;
+printf("C-Porgraming");
+printf(" %d",age);
+return 0;
+}
+
+Notice here %d is a format specifier for integer
+
+OUTPUT
+
+C-Porgraming 25
