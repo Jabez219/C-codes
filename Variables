@@ -27,13 +27,15 @@ C-Porgraming 25
 
 2.CHANGE VALUE OF VARIABLE
 
+INPUT
+
 #include<stdio.h>
 int main()
 {
 int age = 25;
 printf("age : %d",age);
-int Newage = 27;
-printf("\nNewage : %d",Newage);
+int age = 27;
+printf("\nage : %d",age);
 return 0;
 }
 
@@ -43,3 +45,24 @@ OUTPUT
 
 age : 25
 Newage : 27
+
+3.Assign Variable to another variable
+
+INPUT
+
+#include<stdio.h>
+int main()
+{
+int firstnumber = 5;
+printf("firstnumber = %d",firstnumber);
+int secondnumber = firstnumber;
+printf("\nsecondnumber = %d",secondnumber);
+return 0;
+}
+
+here the value of firstnumber variable is assigned to the value of secondnumber variable
+
+OUTPUT
+
+firstnumber = 5
+secondnumber = 5
