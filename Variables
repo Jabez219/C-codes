@@ -66,3 +66,19 @@ OUTPUT
 
 firstnumber = 5
 secondnumber = 5
+
+4.Declaring Multiple Variables at Once
+
+INPUT
+
+#include<stdio.h>
+int main()
+{
+int V1 = 100,V2 = 50;
+printf("%d,%d",V1,V2);
+return 0;
+}
+
+OUTPUT
+
+100,50
