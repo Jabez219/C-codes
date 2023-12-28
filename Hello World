@@ -1,0 +1,14 @@
+Here is the Starting of a New C-Coding language Programes
+"HELLO WORLD"
+
+INPUT:
+
+int main ()
+{
+printf("HELLO WORLD");
+return 0;
+}
+
+OUTPUT:
+
+HELLO WORLD
