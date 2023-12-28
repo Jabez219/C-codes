@@ -1,3 +1,5 @@
+1.VARIABLE
+
 A VARIABLE is a name given to a memory location inside our computer where we can store data
 EXAMPLE:
 int age;
@@ -22,3 +24,22 @@ Notice here %d is a format specifier for integer
 OUTPUT
 
 C-Porgraming 25
+
+2.CHANGE VALUE OF VARIABLE
+
+#include<stdio.h>
+int main()
+{
+int age = 25;
+printf("age : %d",age);
+int Newage = 27;
+printf("\nNewage : %d",Newage);
+return 0;
+}
+
+Notice here \n is specifier used for printing the output in the next line.
+
+OUTPUT
+
+age : 25
+Newage : 27
