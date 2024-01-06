@@ -38,3 +38,51 @@ OUTPUT:
 23
 24
 25
+
+Change Array Elements:
+
+INPUT:
+
+#include <stdio.h>
+int main()
+{
+    int age[5]={21,22,23,24,25};
+    age[2]=27;
+    printf ("%d",age[2]);
+    return 0;
+}
+
+OUTPUT:
+
+27
+
+Loop And Array:
+
+INPUT:
+
+#include <stdio.h>
+int main()
+{
+    int age[5];
+    printf ("Enter The Array Value : ")
+    for(int i=0;i<5;++i)
+    {
+        scanf("%d",&age[i]);
+    }
+    for (int i=0;i<5;++i)
+    {
+        printf("%d ",age[i]);
+    }
+    return 0;
+}
+
+OUTPUT:
+
+Enter The Array Value : 5
+21
+22
+23
+24
+25
+
+21 22 23 24 25
