@@ -1,0 +1,40 @@
+Array is Collection of similar type of data
+Now let's see the array Syntax
+
+data type arrayname[array size]
+data type -> is TYPE OF DATA
+arrayname -> is IDENTIFIER
+[array size] -> SPECIFICES A NUMBER OF ELEMENTS
+EXAMPLE:
+int age[5]
+data type -> is int
+arrayname -> is age
+[array size] -> [5]
+
+Assign Values Using Index Number:
+
+INPUT:
+
+#include <stdio.h>
+int main() {
+    int age[5];
+    age[0]=21;
+    age[1]=22;
+    age[2]=23;
+    age[3]=24;
+    age[4]=25;
+    printf("%d",age[0]);
+    printf("\n%d",age[1]);
+    printf("\n%d",age[2]);
+    printf("\n%d",age[3]);
+    printf("\n%d",age[4]);
+    return 0;
+}
+
+OUTPUT:
+
+21
+22
+23
+24
+25
